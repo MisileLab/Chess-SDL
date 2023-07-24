@@ -11,6 +11,7 @@ struct Piece {
     int position_X;
     int position_Y;
     bool isAlive;
+    int PieceValue;
 };
 
 typedef struct Piece Piece;

@@ -23,9 +23,9 @@ typedef enum ButtonSprite ButtonSprite;
 struct Button
 {
     // Button constants
-    static const int BUTTON_WIDTH;
-    static const int BUTTON_HEIGHT;
-    static const int TOTAL_BUTTONS;
+    int BUTTON_WIDTH;
+    int BUTTON_HEIGHT;
+    int TOTAL_BUTTONS;
                                                                                                                        
     // Initializes internal variables
     Button();
